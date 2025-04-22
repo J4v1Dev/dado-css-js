@@ -12,9 +12,10 @@ body {
   font-size: 55px;
   transition: all 1.5s;
   rotate: -6deg;
+  user-select: none;
 }
 
-.rotate{
+.on{
   rotate: 6deg;
   translate: 20px 0;
 }
